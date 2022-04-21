@@ -4,8 +4,10 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 
+RUN apt-get update
+RUN apt-get install ttyd libev4
 RUN pip3 install -r requirements.txt
 
 COPY . .
-
-ENTRYPOINT ["python", "spring4shell-scan.py" ]
+EXPOSE 80
+ENTRYPOINT ["ttyd", "-p", 80, "bash" ]
