@@ -1,3 +1,5 @@
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/hrb3rt/spring4shell-scan)
+
 <h1 align="center">
   <a href="https://fullhunt.io/"><img src="https://dkh9ehwkisc4.cloudfront.net/static/files/2bcb1bb9-7c6f-4013-83a7-39774bd40e68-1.png" alt="spring4shell-scan"></a>
   <br>
