@@ -1,0 +1,10 @@
+{
+    "name": "SpringHunt",
+    "description": "spring4shell scan",
+    "repository": "https://github.com/hrb3rt/spring4shell-scan",
+    "logo": "",
+    "keywords": ["docker","spring", "rce", "scanner", "spring4shell"],
+    "stack": "container",
+    "env": {
+    } 
+  }
