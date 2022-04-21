@@ -10,4 +10,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 EXPOSE 80
-ENTRYPOINT ["ttyd", "-p", 80, "bash" ]
+ENTRYPOINT ["ttyd", "-p", "80", "bash" ]
